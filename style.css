@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    background: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+nav{
+    color: aliceblue;
+    width: 80%;
+    border: 0.1em solid;
+   height: 10%;
+   padding: 1em;
+}
+
+nav ul{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+main{
+    color: aqua;
+    width: 80%;
+    height: 90%;
+    border: 0.1em solid;
+    padding: 1em;
+}
